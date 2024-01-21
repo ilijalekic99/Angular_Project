@@ -1,0 +1,36 @@
+
+<app-header></app-header>
+<app-parallax></app-parallax>
+<div class= "container mb-5 pb-5">
+    <h3 class='mt-5 text-center recepti_naziv mb-5'>Prikaz nekih od nasih najboljih recepata</h3>
+    <div class="d-flex">  
+        <form class="mr-auto">
+        <div class="input-group">
+            <div class="form-outline">
+              <input type="search" [(ngModel)]="rec" name="rec"  class="form-control" />
+              
+            </div>
+            <button (click)="pretraga()" type="button" class="btn btn-dark ml-2"> Pretraga</button>
+          </div>
+        </form>
+
+    <select [(ngModel)]="sort" (ngModelChange)="sortiraj()" name="sort">
+        <option value='asc' >Najmanje ka najvise </option>
+        <option value='desc'>Najvise ka najmanje</option>
+    </select>
+
+
+    
+
+</div>
+    <hr>
+<div *ngFor="let r of recepti; let i = index">
+    <div *ngIf="i%3==0" class="row">
+<app-kartica class="col"  [recept]="r"></app-kartica>
+<div class="col" *ngIf="i+1<recepti.length"><app-kartica [recept]="recepti[i+1]"></app-kartica></div>
+<div class="col" *ngIf="i+2<recepti.length"><app-kartica [recept]="recepti[i+2]"></app-kartica></div>
+</div>
+</div>
+</div>
+<app-kartica-svidjanje></app-kartica-svidjanje>
+<app-footer></app-footer>

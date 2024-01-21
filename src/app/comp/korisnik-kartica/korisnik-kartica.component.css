@@ -1,0 +1,11 @@
+.korisnik_kartica{
+    
+    background-color: black;
+  font-family: 'Source Code Pro', monospace; 
+  width: 600px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.korisnik_kartica p {
+    color: white;
+}

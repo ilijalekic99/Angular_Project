@@ -1,0 +1,15 @@
+
+<div class="parallax2">
+    
+    <div class="svidjanje">
+        <p class="text-center ">Kako vam se svidja nasa aplikacija</p>
+       
+        <div class="d-flex justify-content-center pt-2">
+           <p>{{ (counter$|async)}} </p> 
+            <button type="button" (click)="like()" class="btn btn-dark">Like</button>
+            <button type="button" (click)="dislike()" class="btn btn-light">Dislike</button>
+
+        </div>
+    </div>
+    
+</div>

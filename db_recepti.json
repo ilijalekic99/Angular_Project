@@ -1,0 +1,81 @@
+{
+  "recepti": [
+    {
+      "id": 0,
+      "naziv": "Spagete bolonjeze",
+      "zemlja": "Italija",
+      "tezina":"Lako",
+      "trajanje":30
+    },
+    {
+      "id": 1,
+      "naziv": "Becka snicla",
+      "zemlja": "Austrija",
+      "tezina":"Srednje",
+      "trajanje":40
+
+    },
+    {
+      "id": 2,
+      "naziv": "Giros",
+      "zemlja": "Grcka",
+      "tezina":"Srednje",
+      "trajanje":80
+
+    },{
+      "id": 3,
+      "naziv": "Kebab",
+      "zemlja": "Turska",
+      "tezina":"Srednje",
+      "trajanje":80
+
+    },
+    {
+      "id": 4,
+      "naziv": "Pizza",
+      "zemlja": "Italija",
+      "tezina":"Lako",
+      "trajanje":120
+
+    },
+    {
+      "id": 5,
+      "naziv": "Sushi",
+      "zemlja": "Japan",
+      "tezina":"Lako",
+      "trajanje":30
+
+    },
+    {
+      "id": 6,
+      "naziv": "Fritata",
+      "zemlja": "Spanija",
+      "tezina":"Lako",
+      "trajanje":20
+
+    },
+    {
+      "id": 7,
+      "naziv": "Borsc",
+      "zemlja": "Rusija",
+      "tezina":"Srednje",
+      "trajanje":120
+    },
+    {
+      "id": 8,
+      "naziv": "Hamburger",
+      "zemlja": "SAD",
+      "tezina":"Srednje",
+      "trajanje":30
+
+    },
+    {
+      "id": 9,
+      "naziv": "Sarma",
+      "zemlja": "Srbija",
+      "tezina":"Tesko",
+      "trajanje":160
+
+    }
+  ]
+}

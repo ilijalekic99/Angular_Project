@@ -1,0 +1,7 @@
+
+.margina{
+    margin-top:300px;
+    height: 100%;
+    min-height: 800px; 
+    background-image: url("/slike/login_slika.jpg")
+}
