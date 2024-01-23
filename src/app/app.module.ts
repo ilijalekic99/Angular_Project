@@ -22,6 +22,7 @@ import { KarticaSvidjanjeComponent } from './comp/kartica-svidjanje/kartica-svid
 import { StoreModule } from '@ngrx/store';
 import {CounterState, counterReducer} from 'Reduktor/counter.reducer'
 import { reduce } from 'rxjs';
+import { AboutComponent } from './stranice/about/about.component';
 
 
 
@@ -41,6 +42,7 @@ import { reduce } from 'rxjs';
     AdminPanelComponent,
     UspesnaRegistracijaComponent,
     KarticaSvidjanjeComponent,
+    AboutComponent,
     
 
    
