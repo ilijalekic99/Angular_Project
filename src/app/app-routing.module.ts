@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:'', component:GlavnaComponent},
   {path:'registracija',component:RegistracijaComponent},
   {path:'admin',component:AdminPanelComponent},
-  { path: 'o-nama', component: AboutComponent },
+  {path: 'o-nama', component: AboutComponent },
   {path:'uspesna_registracija', component:UspesnaRegistracijaComponent}
 ];
 
